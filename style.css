@@ -29,7 +29,7 @@ body{
     background-color: #0230472f;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.267);
     border-radius: 20px;
-    min-width: 320px;
+    min-width: 310px;
     max-width: 2560px;
 
 }
@@ -43,7 +43,7 @@ body{
     border-radius: 20px;
     font-size: 16px;
     font-family: 'BenmonoLiane', sans-serif;
-    min-width: 320px;
+    min-width: 290px;
     max-width: 2560px;
     display: flex;
     align-items: center;
