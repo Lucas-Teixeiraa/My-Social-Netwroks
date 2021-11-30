@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #023047bb;
+    font-family: 'BenmonoLiane', sans-serif;
+}
+/* fontes do site*/
+
+@font-face {
+    font-family: 'BenmonoLiane';
+    src: url('/Font/bBenmonoLiane.ttf') format('truetype');
+}
+
+
+.center-box{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:40vw;
+    /*height:320px;*/
+    align-items: center;
+    background-color: #0230472f;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    min-width: 320px;
+    max-width: 2560px;
+
+}
+
+.button{
+    margin: 15px;
+    width:20vw;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.787);
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'BenmonoLiane', sans-serif;
+    min-width: 320px;
+    max-width: 2560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 52px;
+}
+
+.button:hover{
+    background-color:rgba(24, 172, 192, 0.548);
+}
+
+
+#title{
+    padding-top:35px;
+    min-width: 320px;
+    max-width: 2560px;
+    margin:auto;
+    text-align: center;
+}
+
+
+
+#name-profile{
+    font-size: 26px;
+    min-width: 320px;
+    max-width: 2560px;
+
+}
+/* LOGOS */
+.final-logo{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#insta-logo{
+    width: 26px;
+    margin-left: 10px;
+}
+
+#git-logo{
+    width: 26px;
+    margin-left: 30px;
+}
+
+#linkedin-logo{
+    width: 26px;
+    margin-left:15px;
+    padding-bottom: 6px;
+}
+
+#thunder-logo{
+    width: 40px;
+}
+
+a{
+    text-decoration: none;
+}
